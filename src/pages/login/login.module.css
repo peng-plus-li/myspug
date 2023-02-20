@@ -1,0 +1,90 @@
+/* myspug\src\pages\login\login.module.css */
+/* 仅仅是一些样式，直接从 spug 拷贝即可 */
+.container {
+    background-image: url("./bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f0f2f5;
+    height: 100vh;
+}
+
+.titleContainer {
+    padding-top: 70px;
+    text-align: center;
+    font-size: 33px;
+    font-weight: 600;
+}
+
+.titleContainer .logo {
+    height: 35px;
+    margin-right: 15px;
+}
+
+.titleContainer .desc {
+    margin-top: 12px;
+    margin-bottom: 40px;
+    color: rgba(0, 0, 0, .45);
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.formContainer {
+    background-color: rgba(29,52,110,0.65);
+    border: 1px solid rgba(131, 194, 255, 0.22);
+    border-radius: 15px;
+    padding: 30px 40px;
+    padding-bottom: 80px;
+    width: 360px;
+    position: absolute;
+    right: 150px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.formContainer .tabs {
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.formContainer .formItem {
+    margin-bottom: 24px;
+}
+
+.formContainer .icon {
+    color: rgba(0, 0, 0, .25);
+    font-size: 14px;
+    margin-right: 4px;
+}
+
+.formContainer .button {
+    margin-top: 10px;
+}
+
+.footerZone {
+    width: 100%;
+    bottom: 0;
+    padding: 20px;
+    font-size: 14px;
+    text-align: center;
+    position: absolute;
+}
+
+.footerZone .linksZone {
+    margin-bottom: 7px;
+}
+
+.footerZone .links {
+    margin-right: 40px;
+}
+
+.tips {
+    top: 230px
+}
+
+.bg2{
+    position: absolute;
+    top:0;
+    bottom:0;
+    height:100%;
+}
